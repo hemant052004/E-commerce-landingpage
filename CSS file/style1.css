@@ -1,0 +1,255 @@
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+.contanier1{
+     width: 100%;
+     height: 186.7vh;
+}
+.contanier1 .content{
+     margin-left: 75px;
+     width: 90%;
+     height: 40vh;
+     background: rgba(255, 192, 203, 0.358);
+     border-radius: 20px;
+}
+
+.contanier1 .content .Heading{
+       padding: 50px;
+       padding-bottom: 20px;
+         margin-right: 110vh;
+          color: rgb(7, 75, 7);
+          font-size: 22px;
+}
+
+.contanier1 .content .buy{  
+     width: 100px;
+     height: 30px;
+     border-radius: 50px;
+     background-color: rgb(7, 75, 7);
+     color: white;
+     box-shadow: none;
+     cursor: pointer;
+}
+
+.contanier1 .content #H1{
+     position: relative;
+     bottom: 260px;
+     left:350px;
+     width: 400px;
+}
+.contanier1 .content #H2{
+     position: relative;
+     bottom: 300px;
+     left: 350px;
+     width: 250px;
+     border-radius: 20px;
+}
+
+.contanier1 .content #H2:hover{
+     -webkit-transform: scale(1.3);
+     transform: scale(1.3);
+     cursor: zoom-out;
+}
+.contanier1 .content #H3{
+     position: relative;
+     bottom: 300px;
+     left:350px;
+     padding-left: 40px;
+     width: 250px; 
+     height: 200px; 
+  border-left: 100px;
+}
+
+.contanier1 .content #H3:hover{
+     -webkit-transform: scale(1.3);
+     transform: scale(1.3);
+     cursor: zoom-out;
+}
+
+.checked{
+     color: green;
+}
+
+
+.contanier1 .filters{
+     width: 100%;
+     height: 3rem;
+     padding-top: 11px ;
+     padding-left: 11px;
+     
+ }
+ 
+ .contanier1 .filters select{
+     width: 100%px;
+     height: 25px;
+     border-radius: 50px;
+     padding: 3px;
+     background-color: rgba(128, 128, 128, 0.167);
+     font-weight: bold;
+     position: relative;
+     left: 60px;
+     cursor: pointer;
+ }
+ 
+ .contanier1 .filters .ratings{
+     float: right;
+     margin-right: 135px;
+ }
+ 
+ .contanier1 h2{
+     padding: 15px 75px;
+   
+ }
+ 
+ .contanier1 .contanier3{
+      width: 100%;
+      height: 121vh;
+      display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+ }
+ 
+ .contanier1 .contanier3 button{
+ 
+     width: 100px;
+     height: 30px;
+     border-radius: 50px;
+     background-color: #fff;
+     cursor: pointer;
+ }
+ 
+ .contanier1 .contanier3 button:hover{
+     background-color: green;
+     color: #fff;
+ }
+ .contanier1 .contanier3 .item1,
+ .contanier1 .contanier3 .item2,
+ .contanier1 .contanier3 .item3,
+ .contanier1 .contanier3 .item4,
+ .contanier1 .contanier3 .item5,
+ .contanier1 .contanier3 .item6,
+ .contanier1 .contanier3 .item7,
+ .contanier1 .contanier3 .item8{
+ margin: 12px;
+ width: 300px;
+ height: 410px;
+ border-radius: 20px;
+ }
+ 
+ .contanier1 .contanier3 .item1 .img1,
+ .contanier1 .contanier3 .item2 .img2,
+ .contanier1 .contanier3 .item3 .img3,
+ .contanier1 .contanier3 .item4 .img4,
+ .contanier1 .contanier3 .item5 .img5,
+ .contanier1 .contanier3 .item6 .img6,
+ .contanier1 .contanier3 .item7 .img7,
+ .contanier1 .contanier3 .item8 .img8{
+     width: 100%;
+     height: 302px;
+     background-color: rgba(128, 128, 128, 0.073);
+     border-radius: 20px;
+ }
+ 
+ .contanier1 .contanier3 .item1 .price,
+ .contanier1 .contanier3 .item2 .price,
+ .contanier1 .contanier3 .item3 .price,
+ .contanier1 .contanier3 .item4 .price,
+ .contanier1 .contanier3 .item5 .price,
+ .contanier1 .contanier3 .item6 .price,
+ .contanier1 .contanier3 .item7 .price,
+ .contanier1 .contanier3 .item8 .price{
+     position: relative;
+     top:5px;
+     width: 100%;
+     height: 100px;
+     padding: 5px;
+ }
+ 
+ .contanier1 .contanier3 .item1 .price .pdetail,
+ .contanier1 .contanier3 .item2 .price .pdetail,
+ .contanier1 .contanier3 .item3 .price .pdetail,
+ .contanier1 .contanier3 .item4 .price .pdetail,
+ .contanier1 .contanier3 .item5 .price .pdetail,
+ .contanier1 .contanier3 .item6 .price .pdetail,
+ .contanier1 .contanier3 .item7 .price .pdetail,
+ .contanier1 .contanier3 .item8 .price .pdetail{
+ float: right;
+ }
+ 
+ .contanier1 .contanier3 .item1 img{
+     width: 215px;
+     height: 240px;
+     position: relative;
+     left: 45px;
+     top: 15px;
+ }
+ 
+ 
+ 
+ 
+ .contanier1 .contanier3 .item2 img{
+     width: 200px;
+     height: 280px;
+     position: relative;
+     left: 55px;
+     top: 15px;
+ }
+ 
+ .contanier1 .contanier3 .item3 img{
+     width: 245px;
+     height: 275px;
+     position: relative;
+     left: 32px;
+     top: 15px;
+ }
+ 
+ .contanier1 .contanier3 .item4 img{
+     width: 250px;
+     height: 250px;
+     position: relative;
+     left: 25px;
+     top: 20px;
+ }
+ 
+ .contanier1 .contanier3 .item5 img{
+     width: 250px;
+     height: 250px;
+     position: relative;
+     left: 25px;
+     top: 20px;
+ }
+ 
+ 
+ .contanier1 .contanier3 .item6 img{
+     width: 250px;
+     height: 250px;
+     position: relative;
+     left: 25px;
+     top: 20px;
+ }
+ 
+ 
+ .contanier1 .contanier3 .item7 img{
+     width: 250px;
+     height: 250px;
+     position: relative;
+     left: 25px;
+     top: 20px;
+ }
+ 
+ .contanier1 .contanier3 .item8 img{
+     width: 290px;
+     height: 310px;
+     position: relative;
+     left: 5px;
+     bottom: 35px;
+ }
+ 
+ .contanier1 .contanier3 .like{
+     float: right;
+     padding: 10px;
+ }
+ 
+ 
