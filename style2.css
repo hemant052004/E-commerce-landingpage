@@ -1,0 +1,69 @@
+.container2{
+    z-index: 1;
+    display: flex;
+    width: 100%;
+    align-items: center;
+   padding: 10px;
+   position:sticky;
+   top: 0;
+   left: 0;
+   background-color:#fff;
+}
+
+.container2 .logo{
+ padding-left: 70px;
+}
+
+.container2 .Sname{
+    padding: 10px;
+}
+
+.container2 li{
+    color: black;
+}
+.container2 .list ul li{
+    width: 60px;
+    display: inline;
+    list-style: none;
+    padding: 14px;
+    color: grey;
+}
+
+.container2 .list ul li a{
+    color: black;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.container2 .list ul li a:hover{
+     font-size: 20px;
+}
+
+.container2 .searchbar .search{
+    margin-left: 35px;
+    padding: 5px;
+    font-size: 15px;
+    width: 280px;
+    height: 30px;
+    border-radius: 50px;
+    box-shadow: none;
+  border-color: rgba(128, 128, 128, 0.103);
+    background-color: rgba(128, 128, 128, 0.103);
+}
+
+.container2 .searchbar .search i{
+    align-items: center;
+}
+.container2 .user{
+    padding-left: 200px;
+}
+.container2 .username{
+    padding-left: 10px;
+}
+
+.container2 .cart{
+    padding-left: 30px;
+}
+.container2 .cartname{
+    padding-left: 10px;
+}
